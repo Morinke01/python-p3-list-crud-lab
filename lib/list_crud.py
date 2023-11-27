@@ -1,26 +1,33 @@
 def create_an_empty_list():
-    return None
+    my_list=([])
+    return my_list
 
 def create_a_list():
-    return None
+    my_list1=(["a","b","c","d"])
+    return my_list1
 
 def add_element_to_end_of_list(l, element):
-    return None
+    l.append(5)
+    return l
 
 def add_element_to_start_of_list(l, element):
-    return None
+    l.insert(0,element)
+    return l
 
 def remove_element_from_end_of_list(l):
-    return None
+    l.pop()
+    return l
 
 def remove_element_from_start_of_list(l):
-    return None
+    l.pop(0)
+    return l
 
 def retrieve_first_element_from_list(l):
-    return None
+    return l[0]
 
 def retrieve_element_from_index(l, index):
-    return None
+    retrieve_element = l[index]
+    return retrieve_element
 
 def retrieve_last_element_from_list(l):
-    return None
+    return l[-1]
